@@ -45,7 +45,7 @@
     <Compile Include="CustomStack.cs" />
     <Compile Include="Jedi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StackInterface.cs" />
+    <Compile Include="INamedEntity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
