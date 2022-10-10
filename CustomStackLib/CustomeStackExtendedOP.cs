@@ -8,7 +8,7 @@ namespace CustomStackLib
 {
     public class CustomStackExtendedOP
     {
-        public static void DisplayAllIntersNameAndID<T>(CustomStackClass<T> stack) where T : INamedEntity
+        public static void DisplayAllIntersNameAndID(ICustomStack<IInterns> stack)
         {
             while(stack.Count() >0)
             {

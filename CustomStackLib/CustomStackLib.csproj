@@ -43,9 +43,12 @@
   <ItemGroup>
     <Compile Include="CustomeStackExtendedOP.cs" />
     <Compile Include="CustomStack.cs" />
+    <Compile Include="ICustomStack.cs" />
+    <Compile Include="IReadOnlyCustomStack.cs" />
     <Compile Include="Jedi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="INamedEntity.cs" />
+    <Compile Include="IInterns.cs" />
+    <Compile Include="SkillsLab.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace CustomStackLib
 {
-    public class CustomStackClass<T>
+    public class CustomStackClass<T>: ICustomStack<T> where T : IInterns
     {
         const int _max = 10;
         int _count;

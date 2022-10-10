@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CustomStackLib
 {
-    public class Jedi : IInterns
+    public class SkillsLab : IInterns
     {
         string name;
         int id;
 
-        public string NameId => $"Jedi : {name}: {id}";
-        public Jedi(string name, int id)
+        public string NameId => $"SkillsLab : {name}: {id}";
+        public SkillsLab(string name, int id)
         {
             this.name = name;
             this.id = id;

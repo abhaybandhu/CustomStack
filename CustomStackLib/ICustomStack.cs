@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace CustomStackLib
 {
-    public interface INamedEntity
+    public interface ICustomStack<T>
     {
-         string NameId { get; }
+        int Count();
+        void Push(T new_item);
+        T Pop();
     }
 }
