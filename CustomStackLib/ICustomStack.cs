@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace CustomStackLib
 {
-    public interface ICustomStack<T>
+    public interface ICustomStack<T> : IReadOnlyCustomStack<T>
     {
-        int Count();
+
         void Push(T new_item);
-        T Pop();
     }
 }

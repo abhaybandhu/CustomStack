@@ -8,7 +8,7 @@ namespace CustomStackLib
 {
     public class CustomStackExtendedOP
     {
-        public static void DisplayAllIntersNameAndID(ICustomStack<IInterns> stack)
+        public static void DisplayAllIntersNameAndID(IReadOnlyCustomStack<IInterns> stack)
         {
             while(stack.Count() >0)
             {
